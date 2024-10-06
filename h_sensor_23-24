@@ -1,1 +1,58 @@
-
+byte readIncoming_8[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+byte readIncoming_12[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+byte readIncoming_4[] = {0x00, 0x00, 0x00, 0x00, 0x00};
+float concentration_ppm = 0;
+float temperature = 0;
+float humidity = 0;
+int a = 0;
+byte command6[] = {0xFF, 0x01, 0x87, 0x00, 0x00, 0x00, 0x00, 0x00, 0x78};
+// Condition values
+float threshold = 25; //10000; // hydrogen ppm threshold, should be changed later
+int relayPin = 8;
+int resetButtonPin = 4; // Pin for reset button
+void setup() {
+// put your setup code here, to run once:
+//Init LED GPIO
+//pinMode(led, OUTPUT);
+//Init UART & baudrate
+Serial.begin(9600, SERIAL_8N1);
+// pinMode(setButtonPin, INPUT_PULLUP); delete because we dont need this?
+pinMode(resetButtonPin, INPUT_PULLUP);
+pinMode(relayPin, OUTPUT);
+// Ensure the relay is initially in the OFF state
+digitalWrite(relayPin, LOW);
+delay(250);
+}
+void loop() {
+// put your main code here, to run repeatedly:
+for (int a = 0; a < sizeof(readIncoming_12); a++){
+readIncoming_12[a] = 0x00;
+}
+if(Serial.write(command6, sizeof(command6))){
+delay(50);
+Serial.readBytes(readIncoming_12, sizeof(readIncoming_12));
+}
+concentration_ppm = ((readIncoming_12[6]*256) + readIncoming_12[7])*10;
+temperature = (float)((int)((readIncoming_12[8] << 8) | readIncoming_12[9]))/100;
+humidity = (float)((int)((readIncoming_12[10] << 8) | readIncoming_12[11]))/100;
+Serial.print("Concentration:");
+Serial.print(concentration_ppm);
+Serial.print("\nTemperature:");
+Serial.print(temperature);
+Serial.print("\nHumidity:");
+Serial.print(humidity);
+Serial.println("\n");
+// Check concentration ppm with threshold
+if (temperature > threshold) {
+digitalWrite(relayPin, LOW); //turn OFF relay
+//Check if reset button is pressed
+while(digitalRead(resetButtonPin) == HIGH) { //once button is pressed, resetButtonPin == LOW and will exit the while loop
+delay(100); //optional debounce delay to prevent multiple activations from a single press
+}
+}
+else { //aka if concentration <= threshold
+digitalWrite(relayPin, HIGH); // turn ON relay
+delay(100); // optional debounce delay to prevent multiple activations from a single press
+}
+delay(500);
+}
