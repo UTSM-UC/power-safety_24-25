@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+5V Pin=R1-1
+Removed Pin From Net: NetName=GND Pin=R1-3
+Removed Member From Class: ClassName=pmu Member=R1
+Added Component: Designator=VR?(TRIM_3362P-1-103LF)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/3362P-1-103LF/Bourns/view-part/13764/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "3362P-103LF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "3362P-1-103LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "3116 Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/3362P-1-103LF/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/3362P-1-103LF/Bourns/view-part/13764/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=VR?-1
+Added Pin To Net: NetName=GND Pin=VR?-3
+Added Pin To Net: NetName=NetVR1_1 Pin=VR1-1
+Added Pin To Net: NetName=NetVR1_1 Pin=VR?-2
+Added Net: Name=NetVR1_1
+Added Member To Class: ClassName=pmu Member=Component VR? 3362P-1-103LF
