@@ -1,0 +1,48 @@
+Change Component Footprint: Designator=R1 Old Footprint=RESC1005X40X25LL05T05 New Footprint=FP-CF14-MFG
+Change Component Footprint: Designator=R2 Old Footprint=RESC1005X40X25LL05T05 New Footprint=FP-CF14-MFG
+Change Component Comment : Designator=R1 Old Comment=ERJ2GE0R00X New Comment=PCF14JT7K50
+Change Component Comment : Designator=R2 Old Comment=ERJ2GE0R00X New Comment=PCF14JT7K50
+Change Managed Component Library Link : Designator=R1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=01DF6DBE-139B-459B-9F5B-D720E5A43052 New ItemGUID=727A61F5-F6E4-4AC7-8060-BFC4DDA7DD58 Old RevisionGUID=327503AC-4EB5-4EE3-B91A-81AEE882A81F New RevisionGUID=70CEC3FE-DC44-41F3-9455-1A076776C80C
+Change Managed Component Library Link : Designator=R2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=01DF6DBE-139B-459B-9F5B-D720E5A43052 New ItemGUID=727A61F5-F6E4-4AC7-8060-BFC4DDA7DD58 Old RevisionGUID=327503AC-4EB5-4EE3-B91A-81AEE882A81F New RevisionGUID=70CEC3FE-DC44-41F3-9455-1A076776C80C
+Change component parameters: Designator = "R1" ("R1"); Footprint = "RESC1005X40X25LL05T05"; UniqueID = "\QMJKGPRH" ("\QMJKGPRH")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Axial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "2.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Flame Retardant Coating"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.256inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "7.5kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Carbon Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "CF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "-400ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "RESC1005X40X25LL05T05"; UniqueID = "\LSEDFPNA" ("\LSEDFPNA")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "Axial"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Diameter"; Value = "2.3mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Flame Retardant Coating"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.256inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "7.5kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Carbon Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "CF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "-400ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
