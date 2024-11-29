@@ -1,12 +1,12 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\tarat\Documents\UTSM\power-safety_24-25\dc_dc_converter\dc-dc-converter3\dc-dc-converter3\pmu.PcbDoc
-Date     : 2024-11-28
-Time     : 6:47:00 PM
-
-Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Bottom Layer')),(All)
-Rule Violations :0
+PCB File : W:\UTSM_24-25\power-safety_24-25\dc_dc_converter\dc-dc-converter3\dc-dc-converter3\pmu.PcbDoc
+Date     : 11/28/2024
+Time     : 7:18:39 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Bottom Layer')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
@@ -60,4 +60,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
