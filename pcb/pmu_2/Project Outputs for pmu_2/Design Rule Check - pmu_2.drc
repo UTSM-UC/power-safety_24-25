@@ -1,15 +1,15 @@
 Protel Design System Design Rule Check
 PCB File : W:\USTM\power-safety_24-25\pcb\pmu_2\pmu_2.PcbDoc
-Date     : 11/28/2024
-Time     : 8:35:19 PM
+Date     : 11/30/2024
+Time     : 3:08:45 PM
 
-Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Bottom Layer')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)
+Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=7.874mil) (All),(All)
@@ -63,4 +63,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
