@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : W:\UTSM_24-25\power-safety_24-25\dc_dc_converter\dc-dc-converter4\pmu.PcbDoc
 Date     : 12/1/2024
-Time     : 1:43:49 PM
+Time     : 2:00:00 PM
 
 Processing Rule : Clearance Constraint (Gap=8mil) (OnLayer('Top Layer')),(All)
 Rule Violations :0
@@ -60,4 +60,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
