@@ -117,8 +117,125 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for dc-dc-converter3\Design Rule Check - pmu.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for dc-dc-converter3\NC Drill\pmu.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM11
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GM17
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for dc-dc-converter3\NC Drill\pmu.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for dc-dc-converter3\Gerber\pmu.REP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for dc-dc-converter3\NC Drill\pmu.TXT
 DItemRevisionGUID=
 
 [Configuration1]
