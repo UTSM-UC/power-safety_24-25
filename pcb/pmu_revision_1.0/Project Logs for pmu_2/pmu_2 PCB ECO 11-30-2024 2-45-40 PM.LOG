@@ -1,8 +1,0 @@
-Change Component Designator: OldDesignator=+5 ON NewDesignator=D2
-Change Component Designator: OldDesignator=+7 ON NewDesignator=D4
-Change Component Designator: OldDesignator=D1 NewDesignator=ZD_3V
-Change Component Designator: OldDesignator=D3 NewDesignator=ZD_5V
-Change Net Name : Old Net Name=NetD1_1 New Net Name=NetD2_A
-Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD4_A
-Added Member To Class: ClassName=pmu_2 Member=Component H3 61300411121
-Added Rule: Name=Schematic Supply Nets
