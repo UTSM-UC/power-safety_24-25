@@ -1,0 +1,7 @@
+Change Component Comment : Designator=H5 Old Comment=61301011121 New Comment=
+Change Component Comment : Designator=H6 Old Comment=61301011121 New Comment=
+Change Component Comment : Designator=H7 Old Comment=61301011121 New Comment=
+Change Component Library : Designator=H5 Old Library=asib.SchLib New Library=h_sensor_safety.SchLib
+Change Component Library : Designator=H6 Old Library=asib.SchLib New Library=h_sensor_safety.SchLib
+Change Component Library : Designator=H7 Old Library=asib.SchLib New Library=h_sensor_safety.SchLib
+Change Class Name : Old Net Name=asib New Net Name=h_sensor_safety
