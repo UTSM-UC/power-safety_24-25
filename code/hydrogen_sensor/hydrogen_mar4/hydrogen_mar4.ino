@@ -56,6 +56,9 @@ void setup() {
   //LED light
   pinMode(light, OUTPUT);
 
+  //LED reset light
+  pinMode(reset_light, OUTPUT);
+
   //RESET button
   pinMode(reset_button, INPUT);
 
